@@ -1,13 +1,12 @@
 """
 Info: Load in one cells table file and fit AB-B = x*A
     Reduces each cells table sample to # unique alpha, betas, TCRs. Combines samples with < 2000 cells. 
-
-USE THIS COMMAND: python 02a_fit_one_cell_table.py 01_fit_input_data\cells_table_with_mixcr_cd4.tsv empty
+    Plot the resulting fits and print the resulting statistics: slope and Rsq value.
 Author: Jeffrey Cifello
 """
 import pandas as pd, numpy as np
 import matplotlib.pyplot as plt
-import argparse, os
+import os
 from scipy.optimize import minimize
 from scipy.stats import pearsonr
 import matplotlib.lines as mlines
