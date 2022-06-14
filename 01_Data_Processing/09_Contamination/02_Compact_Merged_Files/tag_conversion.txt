@@ -1,0 +1,2 @@
+Original PCR Tag	Translated PCR Tag
+P001	AAA
