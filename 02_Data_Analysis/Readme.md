@@ -17,4 +17,4 @@ This directory contains the scripts needed to analyze the processed TCR data. He
 
 [^2]: The script will also calculate the normal Simpson's Index and Complementary Simpson's Index, but these values aren't subsequently used or displayed in the paper. 
 
-[^3]: 2 sets of output files will have to be generated: 1) Ouput files that ignore if a particular TCR was from the 1st or 2nd visit (these files are used for Figure 7A-7B) and 2) Output files that consider if a particular TCR was from the 1st or 2nd visit (this is important as this information is used for Figure 7C-7D). 
+[^3]: 2 sets of output files will have to be generated: 1) Ouput files that ignore if a particular TCR was from the 1st or 2nd visit (these files are used for Figure 7A-7B) and 2) Output files that consider if a particular TCR was from the 1st or 2nd visit (this is important as this information is used for Figure 7C-7D in the paper). 
