@@ -10,6 +10,8 @@ This directory contains the scripts needed to analyze the processed TCR data. He
 
 4. **04_Find_Common_TCRs**: These scripts will calculate a normalized UMI frequency for each unique TCR (V-CDR3AA-J) in all of the human subject samples as well as calculate the corresponding number of public/private TCRs for each human subject. [^3]
 
+5. **05_Estimate_abTCR_Diversity**: These scripts fit equations to tables with TCRa, TCRb, and abTCR richness values from multiple public single-cell sources. These equations will be used to estimate abTCR diversity based on DivE estimats of TCRa and TCRb richnesses, developed in **01_DivE**.
+
 
 # DISCLAIMER(S):
 
